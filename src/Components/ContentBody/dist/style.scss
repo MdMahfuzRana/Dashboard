@@ -1,0 +1,31 @@
+.firstItem{
+    padding:10px;
+}
+
+
+
+
+
+.avaters{
+    display: flex;
+}
+.back__shell{
+    width: 35px;
+    height: 35px;
+    background: rgb(217, 215, 215);
+    border-radius:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.avater{
+    height: 30px;
+    width: 30px;
+    border-radius:100%;
+}
+.avater>img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius:100%;
+}
