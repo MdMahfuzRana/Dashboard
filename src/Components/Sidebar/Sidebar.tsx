@@ -27,7 +27,7 @@ const Sidebar:FC=()=>{
   ])
 
   return (
-    <div className="sidebar" >
+    <div className="sidebar " >
         <div className="image_and_info" >
           <div className="sidebar__image" >
             <img src={userImage} alt="" />

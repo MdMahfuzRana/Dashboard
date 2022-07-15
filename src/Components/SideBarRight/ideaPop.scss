@@ -1,0 +1,18 @@
+.svg__image{
+    height:50px;
+    width:50px;
+}
+.svg__image>img{
+    height: 100%;
+    width: 100%;
+}
+.idea__PopStack{
+    width:100%;
+    padding:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color:whitesmoke;
+    border-radius:10px;
+}

@@ -1,15 +1,15 @@
-.sidebar{
-    padding-top:50px;
+.nav__sidebar{
+    padding-top:5px;
 }
-.image_and_info{
+.nav__image_and_info{
     margin-bottom:50px;
 }
-.sidebar__image{
+.nav__sidebar__image{
     height: 50px;
     width:50px;
     margin-bottom: 5px;
 }
-.sidebar__image:before {
+.nav__sidebar__image:before {
     content: "";
     width: 10px;
     height: 10px;
@@ -23,29 +23,29 @@
     text-align: center;
     font-weight: bold;
   }
-.sidebar__image>img{
+.nav__sidebar__image>img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius:10px;
 }
-.userName{
+.nav__userName{
     font-size:1.1rem;
     font-weight: bold;
     margin: 2px;
     color: white;
 }
-.userMail{
+.nav__userMail{
     font-size:.8rem;
     font-weight: bold;
     margin: 2px;
     color:rgb(119, 116, 116);
 }
 
-.listGrupStyle{
+.nav__listGrupStyle{
     width: fit-content;    
 }
-.list__item{
+.nav__list__item{
     border: 0px;
     font-size: 1.1rem;
     font-weight: bold;
@@ -61,12 +61,12 @@
     }
 }
 
-
-@media (max-width:750px) {
-    .sidebar{
-        padding-top:10px;
-    }
-    .sidebar{
+@media (min-width:750px) {
+    .navBar{
         display: none;
+        font-weight: bold;
     }
+    
 }
+
+
